@@ -1,0 +1,92 @@
+{
+  "editor.linkedEditing": true,
+  "workbench.colorCustomizations": {},
+  "editor.fontLigatures": false,
+  "git.confirmSync": false,
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "workbench.iconTheme": "material-icon-theme",
+  "git.autofetch": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "[python]": {
+    "editor.formatOnType": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "git.enableSmartCommit": true,
+  "arduino.useArduinoCli": true,
+  "jupyter.askForKernelRestart": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.guides.bracketPairs": true,
+  "tailwindCSS.emmetCompletions": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.colorTheme": "One Dark Pro Flat",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "settingsSync.ignoredExtensions": ["ms-vscode-remote.remote-wsl"],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "remote.autoForwardPortsSource": "hybrid",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.formatOnSave": true,
+  "vim.commandLineModeKeyBindingsNonRecursive": [],
+  "vim.digraphs": {},
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.sneakReplacesF": true,
+  "vim.sneakUseIgnorecaseAndSmartcase": true,
+  "vim.leader": "<space>",
+  "vim.easymotionKeys": "hklyuiopnm,qwertzxcvbasdgjf",
+  "vim.smartRelativeLine": true,
+  "vim.useSystemClipboard": true,
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["ctrl+j"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["ctrl+k"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["ctrl+l"],
+      "commands": ["extension.vim_ctrl+p"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "h"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.focusFirstEditorGroup"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.focusSecondEditorGroup"
+        }
+      ]
+    }
+  ]
+}
