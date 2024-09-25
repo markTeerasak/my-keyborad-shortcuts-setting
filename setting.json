@@ -67,6 +67,10 @@
     {
       "before": ["ctrl+l"],
       "commands": ["extension.vim_ctrl+p"]
+    },
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
@@ -85,6 +89,33 @@
       "commands": [
         {
           "command": "workbench.action.focusSecondEditorGroup"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "i"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.terminal.focus"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "p"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.quickOpen"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "v"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.splitEditor"
         }
       ]
     }
